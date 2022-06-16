@@ -46,7 +46,7 @@ export const Sidebar = () => {
               placeholder="Enter Email Address"
               onChange={handleChange}
             />
-            <img className="send-logo" src="https://w7.pngwing.com/pngs/522/1004/png-transparent-computer-icons-others-angle-rectangle-triangle.png" alt="" />
+            <img className="send-logo" src="https://www.iconpacks.net/icons/2/free-send-icon-4008-thumb.png" alt="" />
           </ul>
         </div>
       </div>
