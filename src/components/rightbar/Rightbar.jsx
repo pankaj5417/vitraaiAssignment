@@ -78,7 +78,7 @@ export const Rightbar = () => {
           container
           spacing={{ xs: 2, md: 3 }}
           columns={{ xs: 3, sm: 3, md: 3 }}
-          style={{ gap: "10px" }}
+          style={{ gap: "4px" }}
         >
           {dummyData.map((data) => (
             <>
