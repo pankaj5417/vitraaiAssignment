@@ -38,7 +38,7 @@ export const Sidebar = () => {
               <span className="sidebarListItemText">Contact</span>
             </li>
 
-            <h3 className="newsletter-text">Subscribe for newsletter</h3>
+            <h4 className="newsletter-text">Subscribe for newsletter</h4>
             <input
               type="email"
               name="email"
@@ -46,6 +46,7 @@ export const Sidebar = () => {
               placeholder="Enter Email Address"
               onChange={handleChange}
             />
+            <img className="send-logo" src="https://w7.pngwing.com/pngs/522/1004/png-transparent-computer-icons-others-angle-rectangle-triangle.png" alt="" />
           </ul>
         </div>
       </div>

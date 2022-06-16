@@ -63,10 +63,10 @@ export const Rightbar = () => {
   ];
   useEffect(() => {
     async function getData() {
-      const res = await axios.get("https://news-stories2.herokuapp.com/top");
+      const res = await axios.get("https://news-stories2.herokuapp.com");
       // const data=res.json()
-      console.log("res", res.data.stores);
-      setStories(res.data.stores);
+      console.log("res", res.data.stories);
+      setStories(res.data.stories);
     }
     getData();
   }, []);
