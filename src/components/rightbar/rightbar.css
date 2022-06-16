@@ -1,0 +1,27 @@
+.rightbar{
+    flex: 3.6;
+    background-color:white;
+    margin-left: 20px;
+}
+.news-container{
+    width: 360px;
+    height: 450px;
+    padding: 4px;
+    margin: 3px;
+}
+.headline{
+    width: 97%;
+    margin: auto;
+    margin-top: -200px;
+    color: white;
+    font-weight: 500;
+}
+img{
+    width: 350px;
+    height: 440px;
+    border-radius: 3px;
+}
+.desc{
+    height: 50px;
+    overflow: hidden;
+}
